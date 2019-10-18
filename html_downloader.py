@@ -7,7 +7,7 @@ class HtmlDownloader(object):
         if url is None:
             return None
 
-        # 打开新的 URL
+        # 打开新的 URL 设置超市时间
         response = request.urlopen(url,8)
 
         # 判断返回值
