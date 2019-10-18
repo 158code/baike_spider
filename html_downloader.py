@@ -8,7 +8,7 @@ class HtmlDownloader(object):
             return None
 
         # 打开新的 URL 设置超市时间
-        response = request.urlopen(url,8)
+        response = request.urlopen(url,None,5)
 
         # 判断返回值
         if response.getcode() != 200:
